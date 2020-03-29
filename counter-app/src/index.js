@@ -2,12 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
-import App from "./App"; //This is source of the App code
+//import App from "./App"; //This is source of the App code
+import Counter from "./components/counter"; //App was replaced by our component
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Counter />
   </React.StrictMode>,
   document.getElementById("root") //Our app is placed in this element in the HTML
 );
