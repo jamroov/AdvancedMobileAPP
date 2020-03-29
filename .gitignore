@@ -106,3 +106,4 @@ dist
 #Other files
 .eslint.js
 .vscode/*
+counter-app/public/.prettierrc
